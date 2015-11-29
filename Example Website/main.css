@@ -43,10 +43,13 @@ div{
 	font-size:small;
 }
 .Body{
+	padding:30px;
 	text-align:justify;
+	background-color:#CC3537;
+	border-radius:15px;
 }
 body
 {
-	background-color:#517DE3;
+	background-color:#3658A6;
 }
 	
