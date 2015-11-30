@@ -57,6 +57,42 @@ function add(n)
 	}
 	return s;
 }
+function vhist()
+{
+	
+	var number = document.getElementById("vhist").value;
+	var length = document.getElementById("vhist").value.length;
+	//number = 15426;
+	//length = 5;
+	var arr = new Array(length);
+	var var1;
+	var digits = number.toString().split('');
+	var max=-1;
+	for(var i = 0;i<length;i++)
+	{
+			arr[i]=parseInt(digits[i]);
+			if(arr[i]>max)
+			     max=arr[i];
+	}
+	var1=max;
+	console.log(max);
+	var myWindow = window.open("", "MsgWindow", "width=200, height=200");
+	for(var i=0;i<var1;i++)
+    {
+	   for(var j=0;j<length;j++)
+	   {
+		if(arr[j]<max)
+			  myWindow.document.write("&nbsp;&nbsp;");
+			else
+			   myWindow.document.write("*");
+		   }
+			max--;	
+			myWindow.document.write("<br/>");
+		}	
+	console.log(max);
+
+
+}
 
 </script>
 </head>
@@ -102,18 +138,18 @@ function add(n)
                 <tr><td colspan="2">&nbsp;</td></tr>
                 <tr>
                 	<td align="right">Vertical Histogram :  </td>
-                    <td> <input type="number" id="num" size="30"/></td>
+                    <td> <input type="number" id="vhist" size="30"/></td>
                 </tr>
                 <tr><td colspan="2">&nbsp;</td></tr>
 				<tr>
                 	<td>&nbsp;</td>
-                    <td> <input type="button" value="Draw" onclick="sumOfDigits()" /></td>
+                    <td> <input type="button" value="Draw" onclick="vhist()" /></td>
                 </tr>
 
 
             </table>
         </fieldset>      
- 
+ 	   
 </div>
 </div>
 <div class="Footer">&copy;Abhishek Saxena - All rights reserved. This is a dummy website created for a training assignment.</div>
