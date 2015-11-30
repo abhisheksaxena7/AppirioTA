@@ -1,0 +1,122 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Palindrome of Strings</title>
+<link href="main.css" rel="stylesheet" type="text/css">
+<script language="javascript">
+function checkPalindrome() 
+{
+	var pal = document.getElementById("string").value;
+	if(pal=="")
+	{
+		alert("Field is empty");
+		return false;
+	}
+		
+	var l = pal.length;
+    for (var i = 0; i < l / 2; i++) 
+    {
+       if (pal.charAt(i) !== pal.charAt(l - 1 - i)) 
+       {
+           document.getElementById("status").innerHTML = pal+" is not a palindrome";
+		   return false;
+       }
+    }
+    document.getElementById("status").innerHTML = pal+" is a palindrome";
+   
+}
+function sumOfDigits()
+{
+
+	var number = document.getElementById('num').value;
+	if(number=="")
+	{
+		alert("Field is empty");
+		return false;
+	}
+
+	var num = number;
+	
+	while(num>9)
+		num = add(num);
+
+	document.getElementById('addition').innerHTML = "The addition of the digits of "+ number+" is "+num;
+	return;
+}
+
+function add(n)
+{
+	var temp;
+	var s = 0;
+	while(n!=0)
+	{
+		temp = n%10;
+		s = s+temp;
+		n=Math.floor(n/10);
+	}
+	return s;
+}
+
+</script>
+</head>
+
+<body>
+<div class="Container">
+<div class="Header">
+	<div class="NavBar">
+    	<a href="index.html">Home</a> &nbsp; &nbsp; <a href="Signup.html">Sign-up</a> &nbsp; &nbsp; <a href="Login.html">Login</a> &nbsp; &nbsp; <a href="Contactus.html">Contact Us</a> &nbsp; &nbsp; <a href="Aboutus.html">About</a>
+	</div>        
+</div>
+<div class="Body">
+ 
+	<fieldset style="width:80%; background-color:#C3C3C3">
+        	<legend>Assignments</legend>
+            <table width="100%" cellpadding="0" cellspacing="0">
+            	<tr><td colspan="2">&nbsp;</td></tr>
+            	<tr>
+                	<td align="right">Palindrome :  </td>
+                    <td> <input type="text" id="string" size="20"/></td>
+                </tr>
+                <tr>
+                	<td>&nbsp;</td>
+                	<td><label id="status"></label></td>
+                </tr>
+                <tr>
+                	<td>&nbsp;</td>
+                    <td> <input type="button" value="Check" onclick="checkPalindrome()" /></td>
+                </tr>
+                <tr><td colspan="2">&nbsp;</td></tr>
+                <tr>
+                	<td align="right">Sum of Digits :  </td>
+                    <td> <input type="number" id="num" size="30"/></td>
+                </tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td><label id="addition"></label></td>
+				</tr>
+                <tr>
+                	<td>&nbsp;</td>
+                    <td> <input type="button" value="Evaluate" onclick="sumOfDigits()" /></td>
+                </tr>
+                <tr><td colspan="2">&nbsp;</td></tr>
+                <tr>
+                	<td align="right">Vertical Histogram :  </td>
+                    <td> <input type="number" id="num" size="30"/></td>
+                </tr>
+                <tr><td colspan="2">&nbsp;</td></tr>
+				<tr>
+                	<td>&nbsp;</td>
+                    <td> <input type="button" value="Draw" onclick="sumOfDigits()" /></td>
+                </tr>
+
+
+            </table>
+        </fieldset>      
+ 
+</div>
+</div>
+<div class="Footer">&copy;Abhishek Saxena - All rights reserved. This is a dummy website created for a training assignment.</div>
+
+</body>
+</html>
