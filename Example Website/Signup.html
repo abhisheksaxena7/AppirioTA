@@ -5,6 +5,17 @@
 <title>Training Assignment</title>
 <link href="main.css" rel="stylesheet" type="text/css">
 <script language="javascript">
+
+	function check()
+	{
+		if(!validate())
+		{
+			alert("The focused field has invalid value.");
+			return false;
+		}
+		return true;
+	}
+
 	function validate()
 	{
 		if(document.form1.name.value.length<1)
@@ -41,7 +52,7 @@
 </div>
 <div class="Body">
 <center>
-<form name="form1" action="index.html" onsubmit="return validate()">
+<form name="form1" action="index.html" onsubmit="return check()">
         <fieldset style="width:80%; background-color:#C3C3C3">
         	<legend>Sign Up</legend>
             <table width="100%" cellpadding="0" cellspacing="0" class="panel">

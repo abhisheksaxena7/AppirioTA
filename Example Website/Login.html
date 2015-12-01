@@ -5,6 +5,15 @@
 <title>Training Assignment</title>
 <link href="main.css" rel="stylesheet" type="text/css">
 <script language="javascript">
+function check()
+{
+	if(!validate())
+	{
+		alert("The focused field has invalid value.");
+		return false;
+	}
+	return true;
+}
 function validate()
 	{
 		if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(document.form1.email.value)))
@@ -37,7 +46,7 @@ function validate()
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sollicitudin, magna vel vulputate convallis, nunc dolor fermentum enim, id malesuada massa est ac erat. Mauris sollicitudin ex sit amet scelerisque sollicitudin. In varius mollis porttitor. Aliquam suscipit leo vel libero vestibulum tempor. Aliquam auctor diam non lacus sodales condimentum. Morbi viverra ut purus non hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Donec ut nisi a felis porta sagittis eget et ipsum.
 </p>
 <center>
-<form action="index.html" name="form1" onsubmit="return validate()">
+<form action="index.html" name="form1" onsubmit="return check()">
         <fieldset style="width:80%; height:150px; background-color:#C3C3C3">
         	<legend>Login</legend>
             <table width="100%" cellpadding="0" cellspacing="0">
