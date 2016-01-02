@@ -1,0 +1,19 @@
+{
+    "username": "abhisheksaxena2.12@gmail.com", 
+    "environment": "developer", 
+    "project_name": "Recruiting App", 
+    "workspace": "C:/Users/Abhishek Saxena/Documents/AppirioTA", 
+    "org_url": "", 
+    "namespace": "", 
+    "id": "L2VFL1N5ZAXFCIWPTDQJ9YYX7B2ZHE6B", 
+    "metadata_container": "1dc90000000EfpKAAS", 
+    "subscription": [
+        "ApexClass", 
+        "ApexComponent", 
+        "ApexPage", 
+        "ApexTrigger", 
+        "CustomObject", 
+        "Profile", 
+        "StaticResource"
+    ]
+}
