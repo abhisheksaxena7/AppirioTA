@@ -1,0 +1,356 @@
+{
+    "properties": [
+        {
+            "modifiers": [
+                "private"
+            ], 
+            "name": "beforeIn", 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 13, 
+                "line": 3
+            }, 
+            "type": "Boolean"
+        }
+    ], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "CandidateTriggerHandler", 
+    "tableDeclaration": {
+        "type": "CandidateTriggerHandler", 
+        "modifiers": [
+            "public"
+        ], 
+        "references": [], 
+        "location": {
+            "column": 14, 
+            "line": 1
+        }, 
+        "name": "CandidateTriggerHandler"
+    }, 
+    "key": "01p90000006CsXIAA0", 
+    "variables": [
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 49, 
+                "line": 5
+            }, 
+            "name": "newCandidate"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 49, 
+                "line": 12
+            }, 
+            "name": "newCandidate"
+        }, 
+        {
+            "type": "Map", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 85, 
+                "line": 12
+            }, 
+            "name": "oldCandidateMap"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 56, 
+                "line": 19
+            }, 
+            "name": "newCandidate"
+        }, 
+        {
+            "type": "Candidate__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 26, 
+                "line": 21
+            }, 
+            "name": "can"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 56, 
+                "line": 30
+            }, 
+            "name": "newCandidate"
+        }, 
+        {
+            "type": "Map", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 92, 
+                "line": 30
+            }, 
+            "name": "oldCandidateMap"
+        }, 
+        {
+            "type": "Boolean", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 32
+            }, 
+            "name": "beforeIn"
+        }, 
+        {
+            "type": "Candidate__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 26, 
+                "line": 33
+            }, 
+            "name": "can"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 53, 
+                "line": 48
+            }, 
+            "name": "newCandidate"
+        }, 
+        {
+            "type": "Map", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 89, 
+                "line": 48
+            }, 
+            "name": "oldCandidateMap"
+        }, 
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 50
+            }, 
+            "name": "sName"
+        }, 
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 51
+            }, 
+            "name": "sEmail"
+        }, 
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 52
+            }, 
+            "name": "sMobile"
+        }, 
+        {
+            "type": "Boolean", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 54
+            }, 
+            "name": "beforeIn"
+        }, 
+        {
+            "type": "Candidate__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 23, 
+                "line": 55
+            }, 
+            "name": "can"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 28, 
+                "line": 67
+            }, 
+            "name": "recordList"
+        }, 
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 72
+            }, 
+            "name": "setA"
+        }, 
+        {
+            "type": "Candidate__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 26, 
+                "line": 73
+            }, 
+            "name": "can"
+        }, 
+        {
+            "type": "Candidate__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 26, 
+                "line": 78
+            }, 
+            "name": "can"
+        }
+    ], 
+    "id": "01p90000006CsXIAA0", 
+    "methods": [
+        {
+            "modifiers": [
+                "public"
+            ], 
+            "name": "beforeInsert", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "newCandidate"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 5
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "public"
+            ], 
+            "name": "beforeUpdate", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "newCandidate"
+                }, 
+                {
+                    "type": "Map", 
+                    "name": "oldCandidateMap"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 12
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "static", 
+                "public"
+            ], 
+            "name": "calculateAge", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "newCandidate"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 19
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "static", 
+                "public"
+            ], 
+            "name": "calculateAge", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "newCandidate"
+                }, 
+                {
+                    "type": "Map", 
+                    "name": "oldCandidateMap"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 30
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "static", 
+                "public"
+            ], 
+            "name": "duplicate", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "newCandidate"
+                }, 
+                {
+                    "type": "Map", 
+                    "name": "oldCandidateMap"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 48
+            }, 
+            "returnType": "void", 
+            "type": null
+        }
+    ]
+}
