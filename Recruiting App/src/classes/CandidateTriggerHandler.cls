@@ -47,6 +47,8 @@ public class CandidateTriggerHandler
     	{
     		try
     		{
+                //This approach is wrong because if there are 100 records then 100 query would be fired but if there are 101
+                // then our code will break because the governer limit of SOQL queries is 100.
     			Candidate__c rec = [SELECT First_Name__c, Mobile__c, Email__c FROM Candidate__c 
     								WHERE First_Name__c =:can.First_Name__c 
     								AND Mobile__c = :can.Mobile__c 
