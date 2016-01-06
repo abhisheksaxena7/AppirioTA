@@ -1,0 +1,83 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "Util", 
+    "tableDeclaration": {
+        "type": "Util", 
+        "modifiers": [
+            "public", 
+            "with sharing"
+        ], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 1
+        }, 
+        "name": "Util"
+    }, 
+    "key": "01p90000006Ct2oAAC", 
+    "variables": [
+        {
+            "type": "Boolean", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 54, 
+                "line": 3
+            }, 
+            "name": "insertCan"
+        }, 
+        {
+            "type": "Integer", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 73, 
+                "line": 3
+            }, 
+            "name": "i"
+        }, 
+        {
+            "type": "Candidate__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 5
+            }, 
+            "name": "can"
+        }
+    ], 
+    "id": "01p90000006Ct2oAAC", 
+    "methods": [
+        {
+            "modifiers": [
+                "static", 
+                "public"
+            ], 
+            "name": "createCandidates", 
+            "parameters": [
+                {
+                    "type": "Boolean", 
+                    "name": "insertCan"
+                }, 
+                {
+                    "type": "Integer", 
+                    "name": "i"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 29, 
+                "line": 3
+            }, 
+            "returnType": "Candidate__c", 
+            "type": null
+        }
+    ]
+}

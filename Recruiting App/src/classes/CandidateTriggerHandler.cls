@@ -14,10 +14,10 @@ public class CandidateTriggerHandler
     
     public static void calculateAge(List<Candidate__c> newCandidate, Map<Id, Candidate__c> oldCandidateMap) 
     {
-        Boolean beforeIn = (oldCandidateMap==null?false:true);
+        Boolean isInsert = (oldCandidateMap==null?true:false);
         for(Candidate__c can : newCandidate) 
         {
-            if(beforeIn || (can.DOB__c != oldCandidateMap.get(can.Id).DOB__c && can.DOB__c != null) 
+            if(isInsert || (can.DOB__c != oldCandidateMap.get(can.Id).DOB__c && can.DOB__c != null) 
                         || (can.DOB__c == oldCandidateMap.get(can.Id).DOB__c && can.Age__c == null && can.DOB__c != null )) 
             {
                 can.Age__c = math.FLOOR(can.DOB__c.daysBetween(system.today())/365);
@@ -36,12 +36,12 @@ public class CandidateTriggerHandler
         Set<String> sEmail = new Set<String>();
         Set<String> sMobile = new Set<String>();
 
-        Boolean beforeIn = (oldCandidateMap==null?false:true);
+        Boolean isInsert = (oldCandidateMap==null?true:false);
     	for(Candidate__c can : newCandidate) 
     	{
-            if(beforeIn || can.First_Name__c != oldCandidateMap.get(can.Id).First_Name__c 
+            if(isInsert || (can.First_Name__c != oldCandidateMap.get(can.Id).First_Name__c 
                         || can.Mobile__c != oldCandidateMap.get(can.Id).Mobile__c 
-                        || can.Email__c != oldCandidateMap.get(can.Id).Email__c )
+                        || can.Email__c != oldCandidateMap.get(can.Id).Email__c) )
             {
         		sName.add(can.First_Name__c);
                 sEmail.add(can.Email__c);

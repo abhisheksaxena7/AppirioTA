@@ -1,19 +1,5 @@
 {
-    "properties": [
-        {
-            "modifiers": [
-                "private"
-            ], 
-            "name": "beforeIn", 
-            "visibility": "PRIVATE", 
-            "references": [], 
-            "location": {
-                "column": 13, 
-                "line": 3
-            }, 
-            "type": "Boolean"
-        }
-    ], 
+    "properties": [], 
     "externalReferences": [], 
     "innerClasses": [], 
     "interfaces": [], 
@@ -40,7 +26,7 @@
             "references": [], 
             "location": {
                 "column": 49, 
-                "line": 5
+                "line": 3
             }, 
             "name": "newCandidate"
         }, 
@@ -50,7 +36,7 @@
             "references": [], 
             "location": {
                 "column": 49, 
-                "line": 12
+                "line": 9
             }, 
             "name": "newCandidate"
         }, 
@@ -60,7 +46,7 @@
             "references": [], 
             "location": {
                 "column": 85, 
-                "line": 12
+                "line": 9
             }, 
             "name": "oldCandidateMap"
         }, 
@@ -70,27 +56,7 @@
             "references": [], 
             "location": {
                 "column": 56, 
-                "line": 19
-            }, 
-            "name": "newCandidate"
-        }, 
-        {
-            "type": "Candidate__c", 
-            "modifiers": [], 
-            "references": [], 
-            "location": {
-                "column": 26, 
-                "line": 21
-            }, 
-            "name": "can"
-        }, 
-        {
-            "type": "LIST", 
-            "modifiers": [], 
-            "references": [], 
-            "location": {
-                "column": 56, 
-                "line": 30
+                "line": 15
             }, 
             "name": "newCandidate"
         }, 
@@ -100,7 +66,7 @@
             "references": [], 
             "location": {
                 "column": 92, 
-                "line": 30
+                "line": 15
             }, 
             "name": "oldCandidateMap"
         }, 
@@ -110,9 +76,9 @@
             "references": [], 
             "location": {
                 "column": 17, 
-                "line": 32
+                "line": 17
             }, 
-            "name": "beforeIn"
+            "name": "isInsert"
         }, 
         {
             "type": "Candidate__c", 
@@ -120,7 +86,7 @@
             "references": [], 
             "location": {
                 "column": 26, 
-                "line": 33
+                "line": 18
             }, 
             "name": "can"
         }, 
@@ -130,7 +96,7 @@
             "references": [], 
             "location": {
                 "column": 53, 
-                "line": 48
+                "line": 33
             }, 
             "name": "newCandidate"
         }, 
@@ -140,7 +106,7 @@
             "references": [], 
             "location": {
                 "column": 89, 
-                "line": 48
+                "line": 33
             }, 
             "name": "oldCandidateMap"
         }, 
@@ -150,7 +116,7 @@
             "references": [], 
             "location": {
                 "column": 21, 
-                "line": 50
+                "line": 35
             }, 
             "name": "sName"
         }, 
@@ -160,7 +126,7 @@
             "references": [], 
             "location": {
                 "column": 21, 
-                "line": 51
+                "line": 36
             }, 
             "name": "sEmail"
         }, 
@@ -170,7 +136,7 @@
             "references": [], 
             "location": {
                 "column": 21, 
-                "line": 52
+                "line": 37
             }, 
             "name": "sMobile"
         }, 
@@ -180,9 +146,9 @@
             "references": [], 
             "location": {
                 "column": 17, 
-                "line": 54
+                "line": 39
             }, 
-            "name": "beforeIn"
+            "name": "isInsert"
         }, 
         {
             "type": "Candidate__c", 
@@ -190,7 +156,7 @@
             "references": [], 
             "location": {
                 "column": 23, 
-                "line": 55
+                "line": 40
             }, 
             "name": "can"
         }, 
@@ -200,7 +166,7 @@
             "references": [], 
             "location": {
                 "column": 28, 
-                "line": 67
+                "line": 52
             }, 
             "name": "recordList"
         }, 
@@ -210,7 +176,7 @@
             "references": [], 
             "location": {
                 "column": 21, 
-                "line": 72
+                "line": 57
             }, 
             "name": "setA"
         }, 
@@ -220,7 +186,7 @@
             "references": [], 
             "location": {
                 "column": 26, 
-                "line": 73
+                "line": 58
             }, 
             "name": "can"
         }, 
@@ -230,7 +196,7 @@
             "references": [], 
             "location": {
                 "column": 26, 
-                "line": 78
+                "line": 63
             }, 
             "name": "can"
         }
@@ -252,7 +218,7 @@
             "references": [], 
             "location": {
                 "column": 17, 
-                "line": 5
+                "line": 3
             }, 
             "returnType": "void", 
             "type": null
@@ -276,28 +242,7 @@
             "references": [], 
             "location": {
                 "column": 17, 
-                "line": 12
-            }, 
-            "returnType": "void", 
-            "type": null
-        }, 
-        {
-            "modifiers": [
-                "static", 
-                "public"
-            ], 
-            "name": "calculateAge", 
-            "parameters": [
-                {
-                    "type": "LIST", 
-                    "name": "newCandidate"
-                }
-            ], 
-            "visibility": "PUBLIC", 
-            "references": [], 
-            "location": {
-                "column": 24, 
-                "line": 19
+                "line": 9
             }, 
             "returnType": "void", 
             "type": null
@@ -322,7 +267,7 @@
             "references": [], 
             "location": {
                 "column": 24, 
-                "line": 30
+                "line": 15
             }, 
             "returnType": "void", 
             "type": null
@@ -347,7 +292,7 @@
             "references": [], 
             "location": {
                 "column": 24, 
-                "line": 48
+                "line": 33
             }, 
             "returnType": "void", 
             "type": null
