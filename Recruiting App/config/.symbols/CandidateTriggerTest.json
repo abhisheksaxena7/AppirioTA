@@ -47,7 +47,7 @@
             "references": [], 
             "location": {
                 "column": 12, 
-                "line": 32
+                "line": 21
             }, 
             "name": "expectedExceptionThrown"
         }, 
@@ -57,7 +57,7 @@
             "references": [], 
             "location": {
                 "column": 16, 
-                "line": 35
+                "line": 24
             }, 
             "name": "i"
         }, 
@@ -67,9 +67,39 @@
             "references": [], 
             "location": {
                 "column": 15, 
-                "line": 40
+                "line": 38
             }, 
             "name": "i"
+        }, 
+        {
+            "type": "Boolean", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 12, 
+                "line": 72
+            }, 
+            "name": "expectedExceptionThrown"
+        }, 
+        {
+            "type": "Candidate__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 77
+            }, 
+            "name": "recToUpdate"
+        }, 
+        {
+            "type": "Boolean", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 12, 
+                "line": 89
+            }, 
+            "name": "expectedExceptionThrown"
         }, 
         {
             "type": "Integer", 
@@ -77,7 +107,7 @@
             "references": [], 
             "location": {
                 "column": 47, 
-                "line": 53
+                "line": 96
             }, 
             "name": "j"
         }, 
@@ -87,7 +117,7 @@
             "references": [], 
             "location": {
                 "column": 22, 
-                "line": 55
+                "line": 98
             }, 
             "name": "can"
         }, 
@@ -97,7 +127,7 @@
             "references": [], 
             "location": {
                 "column": 15, 
-                "line": 56
+                "line": 99
             }, 
             "name": "i"
         }
@@ -124,6 +154,23 @@
         {
             "modifiers": [
                 "private", 
+                "static", 
+                "testMethod"
+            ], 
+            "name": "testDuplicateCandidates", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 53
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "private", 
                 "static"
             ], 
             "name": "createData", 
@@ -137,7 +184,7 @@
             "references": [], 
             "location": {
                 "column": 28, 
-                "line": 53
+                "line": 96
             }, 
             "returnType": "LIST", 
             "type": null

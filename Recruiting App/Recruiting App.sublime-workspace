@@ -3,6 +3,58 @@
 	{
 		"selected_items":
 		[
+			[
+				"La",
+				"Last_name__c"
+			],
+			[
+				"F",
+				"First_Name__c"
+			],
+			[
+				"D",
+				"DOB__c"
+			],
+			[
+				"as",
+				"assertEquals()"
+			],
+			[
+				"si",
+				"PUBLIC size() 	Integer"
+			],
+			[
+				"can",
+				"Candidate__c"
+			],
+			[
+				"bef",
+				"beforeIn"
+			],
+			[
+				"M",
+				"Mobile__c"
+			],
+			[
+				"na",
+				"First_Name__c"
+			],
+			[
+				"rec",
+				"recordList"
+			],
+			[
+				"sM",
+				"sMobile"
+			],
+			[
+				"Can",
+				"Candidate__c"
+			],
+			[
+				"f",
+				"First_Name__c"
+			]
 		]
 	},
 	"buffers":
@@ -19,8 +71,24 @@
 			"file": "src/classes/CandidateTriggerHandler.cls",
 			"settings":
 			{
-				"buffer_size": 2902,
+				"buffer_size": 2786,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/CandidateTriggerTest.cls",
+			"settings":
+			{
+				"buffer_size": 2280,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/Util.cls",
+			"settings":
+			{
+				"buffer_size": 435,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -62,6 +130,9 @@
 	"expanded_folders":
 	[
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/debug",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/debug/tests",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/debug/tests/CandidateTriggerTest",
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/src",
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/src/classes",
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/src/triggers"
@@ -74,7 +145,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 22.0
 	},
 	"find_in_files":
 	{
@@ -88,6 +159,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"beforeIn"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -105,7 +177,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -121,8 +193,94 @@
 						"selection":
 						[
 							[
-								161,
-								161
+								100,
+								107
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/classes/CandidateTriggerHandler.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								703,
+								703
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/classes/CandidateTriggerTest.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2280,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2212,
+								2212
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage"
+						},
+						"translation.x": 7.0,
+						"translation.y": 684.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/classes/Util.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 435,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								321,
+								321
 							]
 						],
 						"settings":
@@ -135,47 +293,17 @@
 					},
 					"stack_index": 1,
 					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/classes/CandidateTriggerHandler.cls",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2902,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2306,
-								2306
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 937.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 22.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 30.0
 	},
 	"layout":
 	{
@@ -212,7 +340,7 @@
 	"project": "Recruiting App.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 40.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -250,7 +378,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 278.0,
+	"side_bar_width": 353.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
