@@ -90,6 +90,32 @@
         "mmState": "clean", 
         "type": "Profile"
     }, 
+    "ContactTrigger.trigger": {
+        "createdById": "00590000002cPoyAAE", 
+        "createdByName": "Abhishek Saxena", 
+        "createdDate": "2016-01-07 21:49:49", 
+        "fileName": "unpackaged/triggers/ContactTrigger.trigger", 
+        "fullName": "ContactTrigger", 
+        "id": "01q90000000cZmUAAU", 
+        "lastModifiedById": "00590000002cPoyAAE", 
+        "lastModifiedByName": "Abhishek Saxena", 
+        "lastModifiedDate": "2016-01-08 17:44:51", 
+        "mmState": "clean", 
+        "type": "ApexTrigger"
+    }, 
+    "ContactTriggerHandler.cls": {
+        "createdById": "00590000002cPoyAAE", 
+        "createdByName": "Abhishek Saxena", 
+        "createdDate": "2016-01-07 21:52:45", 
+        "fileName": "unpackaged/classes/ContactTriggerHandler.cls", 
+        "fullName": "ContactTriggerHandler", 
+        "id": "01p90000006CtD3AAK", 
+        "lastModifiedById": "00590000002cPoyAAE", 
+        "lastModifiedByName": "Abhishek Saxena", 
+        "lastModifiedDate": "2016-01-08 17:58:01", 
+        "mmState": "clean", 
+        "type": "ApexClass"
+    }, 
     "ContractManager.profile": {
         "createdById": "00590000002cPoyAAE", 
         "createdByName": "Abhishek Saxena", 

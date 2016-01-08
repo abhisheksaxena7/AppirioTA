@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"s",
+				"stopTest"
+			],
+			[
 				"La",
 				"Last_name__c"
 			],
@@ -79,7 +83,7 @@
 			"file": "src/classes/CandidateTriggerTest.cls",
 			"settings":
 			{
-				"buffer_size": 2280,
+				"buffer_size": 2795,
 				"line_ending": "Unix"
 			}
 		},
@@ -221,8 +225,8 @@
 						"selection":
 						[
 							[
-								703,
-								703
+								396,
+								396
 							]
 						],
 						"settings":
@@ -232,10 +236,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 420.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -244,23 +248,24 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2280,
+						"buffer_size": 2795,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2212,
-								2212
+								105,
+								105
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage"
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 7.0,
-						"translation.y": 684.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -279,19 +284,20 @@
 						"selection":
 						[
 							[
-								321,
-								321
+								276,
+								278
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage"
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
