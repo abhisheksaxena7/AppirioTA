@@ -1,0 +1,59 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "ContactAndLeadSearch", 
+    "tableDeclaration": {
+        "type": "ContactAndLeadSearch", 
+        "modifiers": [
+            "public", 
+            "with sharing"
+        ], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 1
+        }, 
+        "name": "ContactAndLeadSearch"
+    }, 
+    "key": "01p90000006CtIXAA0", 
+    "variables": [
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 67, 
+                "line": 3
+            }, 
+            "name": "name"
+        }
+    ], 
+    "id": "01p90000006CtIXAA0", 
+    "methods": [
+        {
+            "modifiers": [
+                "static", 
+                "public"
+            ], 
+            "name": "searchContactsAndLeads", 
+            "parameters": [
+                {
+                    "type": "String", 
+                    "name": "name"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 37, 
+                "line": 3
+            }, 
+            "returnType": "LIST", 
+            "type": null
+        }
+    ]
+}

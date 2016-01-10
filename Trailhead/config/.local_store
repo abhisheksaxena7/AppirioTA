@@ -1,4 +1,17 @@
 {
+    "AccountAddressTrigger.trigger": {
+        "createdById": "00590000002cPoyAAE", 
+        "createdByName": "Abhishek Saxena", 
+        "createdDate": "2016-01-10 22:00:37", 
+        "fileName": "unpackaged/triggers/AccountAddressTrigger.trigger", 
+        "fullName": "AccountAddressTrigger", 
+        "id": "01q90000000cZnmAAE", 
+        "lastModifiedById": "00590000002cPoyAAE", 
+        "lastModifiedByName": "Abhishek Saxena", 
+        "lastModifiedDate": "2016-01-10 22:10:55", 
+        "mmState": "clean", 
+        "type": "ApexTrigger"
+    }, 
     "AccountHandler.cls": {
         "createdById": "00590000002cPoyAAE", 
         "createdByName": "Abhishek Saxena", 
