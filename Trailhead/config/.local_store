@@ -12,6 +12,19 @@
         "mmState": "clean", 
         "type": "ApexClass"
     }, 
+    "ContactSearch.cls": {
+        "createdById": "00590000002cPoyAAE", 
+        "createdByName": "Abhishek Saxena", 
+        "createdDate": "2016-01-10 21:01:57", 
+        "fileName": "unpackaged/classes/ContactSearch.cls", 
+        "fullName": "ContactSearch", 
+        "id": "01p90000006CtISAA0", 
+        "lastModifiedById": "00590000002cPoyAAE", 
+        "lastModifiedByName": "Abhishek Saxena", 
+        "lastModifiedDate": "2016-01-10 21:05:42", 
+        "mmState": "clean", 
+        "type": "ApexClass"
+    }, 
     "Map.page": {
         "createdById": "00590000002cPoyAAE", 
         "createdByName": "Abhishek Saxena", 

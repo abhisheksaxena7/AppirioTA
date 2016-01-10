@@ -1,0 +1,73 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "ContactSearch", 
+    "tableDeclaration": {
+        "type": "ContactSearch", 
+        "modifiers": [
+            "public", 
+            "with sharing"
+        ], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 1
+        }, 
+        "name": "ContactSearch"
+    }, 
+    "key": "01p90000006CtISAA0", 
+    "variables": [
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 55, 
+                "line": 3
+            }, 
+            "name": "lname"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 69, 
+                "line": 3
+            }, 
+            "name": "pcode"
+        }
+    ], 
+    "id": "01p90000006CtISAA0", 
+    "methods": [
+        {
+            "modifiers": [
+                "static", 
+                "public"
+            ], 
+            "name": "searchForContacts", 
+            "parameters": [
+                {
+                    "type": "String", 
+                    "name": "lname"
+                }, 
+                {
+                    "type": "String", 
+                    "name": "pcode"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 30, 
+                "line": 3
+            }, 
+            "returnType": "LIST", 
+            "type": null
+        }
+    ]
+}
