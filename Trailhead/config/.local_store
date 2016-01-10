@@ -25,6 +25,19 @@
         "mmState": "clean", 
         "type": "ApexClass"
     }, 
+    "ClosedOpportunityTrigger.trigger": {
+        "createdById": "00590000002cPoyAAE", 
+        "createdByName": "Abhishek Saxena", 
+        "createdDate": "2016-01-10 22:48:55", 
+        "fileName": "unpackaged/triggers/ClosedOpportunityTrigger.trigger", 
+        "fullName": "ClosedOpportunityTrigger", 
+        "id": "01q90000000cZnrAAE", 
+        "lastModifiedById": "00590000002cPoyAAE", 
+        "lastModifiedByName": "Abhishek Saxena", 
+        "lastModifiedDate": "2016-01-10 22:55:09", 
+        "mmState": "clean", 
+        "type": "ApexTrigger"
+    }, 
     "ContactAndLeadSearch.cls": {
         "createdById": "00590000002cPoyAAE", 
         "createdByName": "Abhishek Saxena", 
