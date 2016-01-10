@@ -1,0 +1,19 @@
+{
+    "username": "abhisheksaxena2.12@gmail.com", 
+    "environment": "developer", 
+    "project_name": "Trailhead", 
+    "workspace": "C:/Users/Abhishek Saxena/Documents/AppirioTA", 
+    "org_url": "", 
+    "namespace": "", 
+    "id": "MCZEJKNEUNERKEY9A625GX41V6H1NV8X", 
+    "metadata_container": "1dc90000000EfpKAAS", 
+    "subscription": [
+        "ApexClass", 
+        "ApexComponent", 
+        "ApexPage", 
+        "ApexTrigger", 
+        "CustomObject", 
+        "Profile", 
+        "StaticResource"
+    ]
+}
