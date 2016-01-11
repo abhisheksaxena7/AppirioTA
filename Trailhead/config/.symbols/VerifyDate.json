@@ -1,0 +1,178 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "VerifyDate", 
+    "tableDeclaration": {
+        "type": "VerifyDate", 
+        "modifiers": [
+            "public"
+        ], 
+        "references": [], 
+        "location": {
+            "column": 14, 
+            "line": 1
+        }, 
+        "name": "VerifyDate"
+    }, 
+    "key": "01p90000006CtMAAA0", 
+    "variables": [
+        {
+            "type": "Date", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 37, 
+                "line": 4
+            }, 
+            "name": "date1"
+        }, 
+        {
+            "type": "Date", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 49, 
+                "line": 4
+            }, 
+            "name": "date2"
+        }, 
+        {
+            "type": "Date", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 47, 
+                "line": 14
+            }, 
+            "name": "date1"
+        }, 
+        {
+            "type": "Date", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 59, 
+                "line": 14
+            }, 
+            "name": "date2"
+        }, 
+        {
+            "type": "Date", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 15, 
+                "line": 19
+            }, 
+            "name": "date30Days"
+        }, 
+        {
+            "type": "Date", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 45, 
+                "line": 25
+            }, 
+            "name": "date1"
+        }, 
+        {
+            "type": "Integer", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 11, 
+                "line": 26
+            }, 
+            "name": "totalDays"
+        }, 
+        {
+            "type": "Date", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 8, 
+                "line": 27
+            }, 
+            "name": "lastDay"
+        }
+    ], 
+    "id": "01p90000006CtMAAA0", 
+    "methods": [
+        {
+            "modifiers": [
+                "static", 
+                "public"
+            ], 
+            "name": "CheckDates", 
+            "parameters": [
+                {
+                    "type": "Date", 
+                    "name": "date1"
+                }, 
+                {
+                    "type": "Date", 
+                    "name": "date2"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 4
+            }, 
+            "returnType": "Date", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "private", 
+                "static"
+            ], 
+            "name": "DateWithin30Days", 
+            "parameters": [
+                {
+                    "type": "Date", 
+                    "name": "date1"
+                }, 
+                {
+                    "type": "Date", 
+                    "name": "date2"
+                }
+            ], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 14
+            }, 
+            "returnType": "Boolean", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "private", 
+                "static"
+            ], 
+            "name": "SetEndOfMonthDate", 
+            "parameters": [
+                {
+                    "type": "Date", 
+                    "name": "date1"
+                }
+            ], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 22, 
+                "line": 25
+            }, 
+            "returnType": "Date", 
+            "type": null
+        }
+    ]
+}
