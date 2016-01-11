@@ -24,7 +24,12 @@
         {
             "type": "Boolean", 
             "modifiers": [], 
-            "references": [], 
+            "references": [
+                {
+                    "column": 6, 
+                    "line": 12
+                }
+            ], 
             "location": {
                 "column": 54, 
                 "line": 3
@@ -34,7 +39,20 @@
         {
             "type": "Integer", 
             "modifiers": [], 
-            "references": [], 
+            "references": [
+                {
+                    "column": 42, 
+                    "line": 6
+                }, 
+                {
+                    "column": 40, 
+                    "line": 7
+                }, 
+                {
+                    "column": 25, 
+                    "line": 9
+                }
+            ], 
             "location": {
                 "column": 73, 
                 "line": 3
@@ -44,7 +62,40 @@
         {
             "type": "Candidate__c", 
             "modifiers": [], 
-            "references": [], 
+            "references": [
+                {
+                    "column": 3, 
+                    "line": 6
+                }, 
+                {
+                    "column": 3, 
+                    "line": 7
+                }, 
+                {
+                    "column": 3, 
+                    "line": 8
+                }, 
+                {
+                    "column": 3, 
+                    "line": 9
+                }, 
+                {
+                    "column": 3, 
+                    "line": 10
+                }, 
+                {
+                    "column": 16, 
+                    "line": 11
+                }, 
+                {
+                    "column": 11, 
+                    "line": 14
+                }, 
+                {
+                    "column": 10, 
+                    "line": 16
+                }
+            ], 
             "location": {
                 "column": 16, 
                 "line": 5

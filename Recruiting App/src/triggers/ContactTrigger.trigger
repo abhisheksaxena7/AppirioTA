@@ -12,6 +12,7 @@ trigger ContactTrigger on Contact (after insert, after update, after delete, aft
     }
     else if(Trigger.isAfter && Trigger.isDelete)
     {
-    	handler.afterDelete(Trigger.oldMap);
+        handler.afterDelete(Trigger.oldMap);
+    	//handler.afterDelete(Trigger.old);
     }    
 }

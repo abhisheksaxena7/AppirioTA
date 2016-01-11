@@ -1,6 +1,89 @@
 {
     "properties": [], 
-    "externalReferences": [], 
+    "externalReferences": [
+        {
+            "references": [
+                {
+                    "column": 3, 
+                    "line": 7
+                }, 
+                {
+                    "column": 3, 
+                    "line": 49
+                }, 
+                {
+                    "column": 3, 
+                    "line": 63
+                }, 
+                {
+                    "column": 3, 
+                    "line": 93
+                }
+            ], 
+            "variables": [], 
+            "namespace": "System", 
+            "methods": [
+                {
+                    "returnType": null, 
+                    "references": [
+                        {
+                            "column": 8, 
+                            "line": 7
+                        }, 
+                        {
+                            "column": 8, 
+                            "line": 63
+                        }
+                    ], 
+                    "name": "startTest", 
+                    "parameters": [], 
+                    "argTypes": []
+                }, 
+                {
+                    "returnType": null, 
+                    "references": [
+                        {
+                            "column": 8, 
+                            "line": 49
+                        }, 
+                        {
+                            "column": 8, 
+                            "line": 93
+                        }
+                    ], 
+                    "name": "stopTest", 
+                    "parameters": [], 
+                    "argTypes": []
+                }
+            ], 
+            "name": "Test"
+        }, 
+        {
+            "references": [
+                {
+                    "column": 12, 
+                    "line": 101
+                }
+            ], 
+            "variables": [], 
+            "namespace": null, 
+            "methods": [
+                {
+                    "returnType": null, 
+                    "references": [
+                        {
+                            "column": 17, 
+                            "line": 101
+                        }
+                    ], 
+                    "name": "createCandidates", 
+                    "parameters": [], 
+                    "argTypes": []
+                }
+            ], 
+            "name": "Util"
+        }
+    ], 
     "innerClasses": [], 
     "interfaces": [], 
     "constructors": [], 
@@ -24,7 +107,64 @@
         {
             "type": "LIST", 
             "modifiers": [], 
-            "references": [], 
+            "references": [
+                {
+                    "column": 24, 
+                    "line": 12
+                }, 
+                {
+                    "column": 4, 
+                    "line": 13
+                }, 
+                {
+                    "column": 26, 
+                    "line": 10
+                }, 
+                {
+                    "column": 11, 
+                    "line": 17
+                }, 
+                {
+                    "column": 4, 
+                    "line": 23
+                }, 
+                {
+                    "column": 21, 
+                    "line": 28
+                }, 
+                {
+                    "column": 21, 
+                    "line": 32
+                }, 
+                {
+                    "column": 27, 
+                    "line": 24
+                }, 
+                {
+                    "column": 11, 
+                    "line": 35
+                }, 
+                {
+                    "column": 3, 
+                    "line": 37
+                }, 
+                {
+                    "column": 52, 
+                    "line": 40
+                }, 
+                {
+                    "column": 25, 
+                    "line": 43
+                }, 
+                {
+                    "column": 25, 
+                    "line": 46
+                }, 
+                {
+                    "column": 26, 
+                    "line": 38
+                }
+            ], 
             "location": {
                 "column": 22, 
                 "line": 9
@@ -34,7 +174,24 @@
         {
             "type": "Integer", 
             "modifiers": [], 
-            "references": [], 
+            "references": [
+                {
+                    "column": 31, 
+                    "line": 12
+                }, 
+                {
+                    "column": 11, 
+                    "line": 13
+                }, 
+                {
+                    "column": 22, 
+                    "line": 10
+                }, 
+                {
+                    "column": 41, 
+                    "line": 10
+                }
+            ], 
             "location": {
                 "column": 15, 
                 "line": 10
@@ -44,7 +201,12 @@
         {
             "type": "Boolean", 
             "modifiers": [], 
-            "references": [], 
+            "references": [
+                {
+                    "column": 24, 
+                    "line": 22
+                }
+            ], 
             "location": {
                 "column": 12, 
                 "line": 21
@@ -54,7 +216,36 @@
         {
             "type": "Integer", 
             "modifiers": [], 
-            "references": [], 
+            "references": [
+                {
+                    "column": 28, 
+                    "line": 28
+                }, 
+                {
+                    "column": 28, 
+                    "line": 32
+                }, 
+                {
+                    "column": 20, 
+                    "line": 26
+                }, 
+                {
+                    "column": 25, 
+                    "line": 30
+                }, 
+                {
+                    "column": 35, 
+                    "line": 30
+                }, 
+                {
+                    "column": 23, 
+                    "line": 24
+                }, 
+                {
+                    "column": 42, 
+                    "line": 24
+                }
+            ], 
             "location": {
                 "column": 16, 
                 "line": 24
@@ -64,7 +255,36 @@
         {
             "type": "Integer", 
             "modifiers": [], 
-            "references": [], 
+            "references": [
+                {
+                    "column": 36, 
+                    "line": 40
+                }, 
+                {
+                    "column": 59, 
+                    "line": 40
+                }, 
+                {
+                    "column": 32, 
+                    "line": 43
+                }, 
+                {
+                    "column": 32, 
+                    "line": 46
+                }, 
+                {
+                    "column": 7, 
+                    "line": 41
+                }, 
+                {
+                    "column": 22, 
+                    "line": 38
+                }, 
+                {
+                    "column": 41, 
+                    "line": 38
+                }
+            ], 
             "location": {
                 "column": 15, 
                 "line": 38
@@ -74,7 +294,12 @@
         {
             "type": "Boolean", 
             "modifiers": [], 
-            "references": [], 
+            "references": [
+                {
+                    "column": 24, 
+                    "line": 74
+                }
+            ], 
             "location": {
                 "column": 12, 
                 "line": 72
@@ -84,7 +309,24 @@
         {
             "type": "Candidate__c", 
             "modifiers": [], 
-            "references": [], 
+            "references": [
+                {
+                    "column": 3, 
+                    "line": 80
+                }, 
+                {
+                    "column": 3, 
+                    "line": 81
+                }, 
+                {
+                    "column": 3, 
+                    "line": 82
+                }, 
+                {
+                    "column": 11, 
+                    "line": 85
+                }
+            ], 
             "location": {
                 "column": 16, 
                 "line": 77
@@ -94,7 +336,12 @@
         {
             "type": "Boolean", 
             "modifiers": [], 
-            "references": [], 
+            "references": [
+                {
+                    "column": 24, 
+                    "line": 91
+                }
+            ], 
             "location": {
                 "column": 12, 
                 "line": 89
@@ -104,7 +351,12 @@
         {
             "type": "Integer", 
             "modifiers": [], 
-            "references": [], 
+            "references": [
+                {
+                    "column": 26, 
+                    "line": 99
+                }
+            ], 
             "location": {
                 "column": 47, 
                 "line": 96
@@ -114,7 +366,16 @@
         {
             "type": "LIST", 
             "modifiers": [], 
-            "references": [], 
+            "references": [
+                {
+                    "column": 4, 
+                    "line": 101
+                }, 
+                {
+                    "column": 10, 
+                    "line": 103
+                }
+            ], 
             "location": {
                 "column": 22, 
                 "line": 98
@@ -124,7 +385,20 @@
         {
             "type": "Integer", 
             "modifiers": [], 
-            "references": [], 
+            "references": [
+                {
+                    "column": 41, 
+                    "line": 101
+                }, 
+                {
+                    "column": 22, 
+                    "line": 99
+                }, 
+                {
+                    "column": 29, 
+                    "line": 99
+                }
+            ], 
             "location": {
                 "column": 15, 
                 "line": 99
@@ -181,7 +455,20 @@
                 }
             ], 
             "visibility": "PRIVATE", 
-            "references": [], 
+            "references": [
+                {
+                    "column": 10, 
+                    "line": 8
+                }, 
+                {
+                    "column": 10, 
+                    "line": 64
+                }, 
+                {
+                    "column": 11, 
+                    "line": 68
+                }
+            ], 
             "location": {
                 "column": 28, 
                 "line": 96

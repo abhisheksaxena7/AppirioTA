@@ -8,6 +8,7 @@ public class ContactTriggerHandler
     {
         calculateGT(newContact, oldContactMap);
     }
+    
     public void afterDelete(Map<Id, Contact> oldContactMap)
     {
         calculateGT(null,oldContactMap);
@@ -24,21 +25,29 @@ public class ContactTriggerHandler
         {
             for(Contact c : newContact)
             {
-                if(isInsert || c.Total__c != oldContactMap.get(c.Id).Total__c)
+                if(isInsert || c.Total__c != oldContactMap.get(c.Id).Total__c || c.AccountId != oldContactMap.get(c.Id).AccountId)
                 {
                     if(c.AccountId != null)
-                        newContactAccountId.add(c.AccountId);
+                    {    newContactAccountId.add(c.AccountId);
+                         if(!isInsert && c.AccountId != oldContactMap.get(c.Id).AccountId)
+                            newContactAccountId.add(oldContactMap.get(c.Id).AccountId);
+                    }
+
                 }        
             }   
         }
-        List<Account> acc;
-        if(!isDelete)
-           acc = [SELECT Id, Grand_Total__c, (SELECT Total__c FROM Contacts) FROM Account where Id in :newContactAccountId];
         else
         {
-           acc = [SELECT Id, Grand_Total__c, (SELECT Total__c FROM Contacts) FROM Account];   
+            for(Contact c : oldContactMap.values())
+            {
+                if(c.AccountId != null)
+                    newContactAccountId.add(oldContactMap.get(c.Id).AccountId);
+            }
         }
         
+        List<Account> acc;
+        acc = [SELECT Id, Grand_Total__c, (SELECT Total__c FROM Contacts) FROM Account where Id in :newContactAccountId];
+         
         for(Integer i = 0; i< acc.size(); i++)
         {
             if(acc[i].Contacts != null)
@@ -54,4 +63,3 @@ public class ContactTriggerHandler
         update acc;   
     }
 }
-

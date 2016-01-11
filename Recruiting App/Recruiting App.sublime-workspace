@@ -4,6 +4,90 @@
 		"selected_items":
 		[
 			[
+				"old",
+				"oldContactMap"
+			],
+			[
+				"cal",
+				"calculateGT"
+			],
+			[
+				"ac",
+				"Account"
+			],
+			[
+				"g",
+				"Grand_Total__c"
+			],
+			[
+				"Cont",
+				"Contact"
+			],
+			[
+				"Con",
+				"Contact"
+			],
+			[
+				"Co",
+				"Contact"
+			],
+			[
+				"is",
+				"isDelete"
+			],
+			[
+				"o",
+				"oldMap"
+			],
+			[
+				"Conta",
+				"ContactTriggerHandler	[Custom Apex Class]"
+			],
+			[
+				"new",
+				"newContact"
+			],
+			[
+				"t",
+				"Total__c"
+			],
+			[
+				"fr",
+				"FROM"
+			],
+			[
+				"id",
+				"Id"
+			],
+			[
+				"con",
+				"Contact"
+			],
+			[
+				"map",
+				"Map"
+			],
+			[
+				"newC",
+				"newContactAccountId"
+			],
+			[
+				"A",
+				"AccountId"
+			],
+			[
+				"newc",
+				"newContactAccountId"
+			],
+			[
+				"a",
+				"AccountId"
+			],
+			[
+				"put",
+				"PUBLIC put(ANY key, ANY value) 	String"
+			],
+			[
 				"s",
 				"stopTest"
 			],
@@ -64,34 +148,18 @@
 	"buffers":
 	[
 		{
-			"file": "src/triggers/CandidateTrigger.trigger",
+			"file": "src/triggers/ContactTrigger.trigger",
 			"settings":
 			{
-				"buffer_size": 358,
-				"line_ending": "Unix"
+				"buffer_size": 520,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/classes/CandidateTriggerHandler.cls",
+			"file": "src/classes/ContactTriggerHandler.cls",
 			"settings":
 			{
-				"buffer_size": 2786,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/classes/CandidateTriggerTest.cls",
-			"settings":
-			{
-				"buffer_size": 2795,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/classes/Util.cls",
-			"settings":
-			{
-				"buffer_size": 435,
+				"buffer_size": 2625,
 				"line_ending": "Windows"
 			}
 		}
@@ -134,15 +202,17 @@
 	"expanded_folders":
 	[
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App",
-		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/debug",
-		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/debug/tests",
-		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/debug/tests/CandidateTriggerTest",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/config",
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/src",
-		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/src/classes",
-		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/src/triggers"
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/src/classes"
 	],
 	"file_history":
 	[
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/src/classes/StringArrayTest.cls",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/src/classes/CandidateTriggerTest.cls",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/src/classes/CandidateTriggerHandler.cls",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/src/triggers/CandidateTrigger.trigger",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/src/classes/Util.cls",
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/src/triggers/CandidateTrigger.trigger-meta.xml",
 		"/C/Users/Abhishek Saxena/AppData/Local/Temp/Temp1_Trigger3012.zip/CandidateTriggerHandler.cls",
 		"/C/Users/Abhishek Saxena/AppData/Local/Temp/Temp1_Trigger3012.zip/CandidateTrigger.tgr"
@@ -181,52 +251,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/triggers/CandidateTrigger.trigger",
+					"file": "src/triggers/ContactTrigger.trigger",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 358,
+						"buffer_size": 520,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								100,
-								107
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/classes/CandidateTriggerHandler.cls",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2786,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								396,
-								396
+								203,
+								205
 							]
 						],
 						"settings":
@@ -236,68 +278,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 420.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "src/classes/CandidateTriggerTest.cls",
+					"buffer": 1,
+					"file": "src/classes/ContactTriggerHandler.cls",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2795,
+						"buffer_size": 2625,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								105,
-								105
+								1515,
+								1515
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/classes/Util.cls",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 435,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								276,
-								278
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -384,7 +398,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 353.0,
+	"side_bar_width": 245.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
