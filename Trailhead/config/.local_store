@@ -77,6 +77,19 @@
         "mmState": "clean", 
         "type": "ApexPage"
     }, 
+    "RandomContactFactory.cls": {
+        "createdById": "00590000002cPoyAAE", 
+        "createdByName": "Abhishek Saxena", 
+        "createdDate": "2016-01-11 16:09:24", 
+        "fileName": "unpackaged/classes/RandomContactFactory.cls", 
+        "fullName": "RandomContactFactory", 
+        "id": "01p90000006CtNXAA0", 
+        "lastModifiedById": "00590000002cPoyAAE", 
+        "lastModifiedByName": "Abhishek Saxena", 
+        "lastModifiedDate": "2016-01-11 16:13:45", 
+        "mmState": "clean", 
+        "type": "ApexClass"
+    }, 
     "RestrictContactByName.trigger": {
         "createdById": "00590000002cPoyAAE", 
         "createdByName": "Abhishek Saxena", 

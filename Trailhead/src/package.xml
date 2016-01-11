@@ -4,6 +4,7 @@
 		<members>AccountHandler</members>
 		<members>ContactAndLeadSearch</members>
 		<members>ContactSearch</members>
+		<members>RandomContactFactory</members>
 		<members>StringArrayTest</members>
 		<members>TestRestrictContactByName</members>
 		<members>TestVerifyDate</members>

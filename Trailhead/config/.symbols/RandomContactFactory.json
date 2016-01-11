@@ -1,0 +1,93 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "RandomContactFactory", 
+    "tableDeclaration": {
+        "type": "RandomContactFactory", 
+        "modifiers": [
+            "public", 
+            "with sharing"
+        ], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 1
+        }, 
+        "name": "RandomContactFactory"
+    }, 
+    "key": "01p90000006CtNXAA0", 
+    "variables": [
+        {
+            "type": "Integer", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 61, 
+                "line": 3
+            }, 
+            "name": "numOfCont"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 79, 
+                "line": 3
+            }, 
+            "name": "lName"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 5
+            }, 
+            "name": "cons"
+        }, 
+        {
+            "type": "Integer", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 15, 
+                "line": 6
+            }, 
+            "name": "i"
+        }
+    ], 
+    "id": "01p90000006CtNXAA0", 
+    "methods": [
+        {
+            "modifiers": [
+                "static", 
+                "public"
+            ], 
+            "name": "generateRandomContacts", 
+            "parameters": [
+                {
+                    "type": "Integer", 
+                    "name": "numOfCont"
+                }, 
+                {
+                    "type": "String", 
+                    "name": "lName"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 30, 
+                "line": 3
+            }, 
+            "returnType": "LIST", 
+            "type": null
+        }
+    ]
+}
