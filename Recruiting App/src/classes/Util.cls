@@ -14,6 +14,17 @@ public with sharing class Util
 			insert can;
 		}
 		return can;
-	} 	
+	}
+
+	Public static Contact createContacts(Boolean insertCon, Integer i)
+	{
+		Contact con = new Contact();
+		con.LastName = 'Test Last Name '+i;
+		if(insertCon)
+		{
+			insert con;
+		} 
+		return con;
+	}
 
 }

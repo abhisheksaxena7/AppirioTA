@@ -77,6 +77,19 @@
         "mmState": "clean", 
         "type": "ApexPage"
     }, 
+    "RestrictContactByName.trigger": {
+        "createdById": "00590000002cPoyAAE", 
+        "createdByName": "Abhishek Saxena", 
+        "createdDate": "2016-01-11 15:20:43", 
+        "fileName": "unpackaged/triggers/RestrictContactByName.trigger", 
+        "fullName": "RestrictContactByName", 
+        "id": "01q90000000cZoaAAE", 
+        "lastModifiedById": "00590000002cPoyAAE", 
+        "lastModifiedByName": "Abhishek Saxena", 
+        "lastModifiedDate": "2016-01-11 15:22:56", 
+        "mmState": "clean", 
+        "type": "ApexTrigger"
+    }, 
     "StringArrayTest.cls": {
         "createdById": "00590000002cPoyAAE", 
         "createdByName": "Abhishek Saxena", 
@@ -87,6 +100,19 @@
         "lastModifiedById": "00590000002cPoyAAE", 
         "lastModifiedByName": "Abhishek Saxena", 
         "lastModifiedDate": "2016-01-10 19:05:27", 
+        "mmState": "clean", 
+        "type": "ApexClass"
+    }, 
+    "TestRestrictContactByName.cls": {
+        "createdById": "00590000002cPoyAAE", 
+        "createdByName": "Abhishek Saxena", 
+        "createdDate": "2016-01-11 15:23:35", 
+        "fileName": "unpackaged/classes/TestRestrictContactByName.cls", 
+        "fullName": "TestRestrictContactByName", 
+        "id": "01p90000006CtMKAA0", 
+        "lastModifiedById": "00590000002cPoyAAE", 
+        "lastModifiedByName": "Abhishek Saxena", 
+        "lastModifiedDate": "2016-01-11 15:59:44", 
         "mmState": "clean", 
         "type": "ApexClass"
     }, 

@@ -5,6 +5,7 @@
 		<members>ContactAndLeadSearch</members>
 		<members>ContactSearch</members>
 		<members>StringArrayTest</members>
+		<members>TestRestrictContactByName</members>
 		<members>TestVerifyDate</members>
 		<members>VerifyDate</members>
 		<name>ApexClass</name>
