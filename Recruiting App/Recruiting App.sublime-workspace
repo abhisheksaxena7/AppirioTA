@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"Las",
+				"LastName"
+			],
+			[
+				"in",
+				"insertCan"
+			],
+			[
 				"new",
 				"newContactAccountId"
 			],
@@ -156,27 +164,11 @@
 	"buffers":
 	[
 		{
-			"file": "src/triggers/ContactTrigger.trigger",
-			"settings":
-			{
-				"buffer_size": 479,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "src/classes/ContactTriggerHandler.cls",
 			"settings":
 			{
 				"buffer_size": 2094,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/classes/Util.cls",
-			"settings":
-			{
-				"buffer_size": 435,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -225,11 +217,12 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/src/triggers/ContactTrigger.trigger",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/src/classes/Util.cls",
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/src/classes/StringArrayTest.cls",
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/src/classes/CandidateTriggerTest.cls",
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/src/classes/CandidateTriggerHandler.cls",
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/src/triggers/CandidateTrigger.trigger",
-		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/src/classes/Util.cls",
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Recruiting App/src/triggers/CandidateTrigger.trigger-meta.xml",
 		"/C/Users/Abhishek Saxena/AppData/Local/Temp/Temp1_Trigger3012.zip/CandidateTriggerHandler.cls",
 		"/C/Users/Abhishek Saxena/AppData/Local/Temp/Temp1_Trigger3012.zip/CandidateTrigger.tgr"
@@ -268,41 +261,11 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/triggers/ContactTrigger.trigger",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 479,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								250,
-								250
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "src/classes/ContactTriggerHandler.cls",
 					"semi_transient": false,
 					"settings":
@@ -314,8 +277,8 @@
 						"selection":
 						[
 							[
-								1064,
-								1065
+								1723,
+								1723
 							]
 						],
 						"settings":
@@ -325,39 +288,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 462.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/classes/Util.cls",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 435,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								254,
-								281
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]

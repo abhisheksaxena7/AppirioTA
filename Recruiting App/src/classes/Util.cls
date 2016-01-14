@@ -19,7 +19,9 @@ public with sharing class Util
 	Public static Contact createContacts(Boolean insertCon, Integer i)
 	{
 		Contact con = new Contact();
+		con.FirstName = 'Test First Name '+i;
 		con.LastName = 'Test Last Name '+i;
+		con.Email = 'Test'+i+'@test.com';
 		if(insertCon)
 		{
 			insert con;

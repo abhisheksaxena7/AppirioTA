@@ -5,9 +5,9 @@
     "interfaces": [], 
     "constructors": [], 
     "namespace": null, 
-    "name": "Util", 
+    "name": "TrackHistoryHandler", 
     "tableDeclaration": {
-        "type": "Util", 
+        "type": "TrackHistoryHandler", 
         "modifiers": [
             "public", 
             "with sharing"
@@ -17,96 +17,116 @@
             "column": 27, 
             "line": 1
         }, 
-        "name": "Util"
+        "name": "TrackHistoryHandler"
     }, 
-    "key": "01p90000006Ct2oAAC", 
+    "key": "01p90000006Cu39AAC", 
     "variables": [
         {
-            "type": "Boolean", 
+            "type": "LIST", 
             "modifiers": [], 
             "references": [], 
             "location": {
-                "column": 54, 
+                "column": 55, 
                 "line": 3
             }, 
-            "name": "insertCan"
+            "name": "newContact"
         }, 
         {
-            "type": "Integer", 
+            "type": "Map", 
             "modifiers": [], 
             "references": [], 
             "location": {
-                "column": 73, 
+                "column": 84, 
                 "line": 3
             }, 
-            "name": "i"
+            "name": "oldContactMap"
         }, 
         {
-            "type": "Candidate__c", 
-            "modifiers": [], 
-            "references": [], 
-            "location": {
-                "column": 16, 
-                "line": 5
-            }, 
-            "name": "can"
-        }, 
-        {
-            "type": "Boolean", 
+            "type": "LIST", 
             "modifiers": [], 
             "references": [], 
             "location": {
                 "column": 47, 
-                "line": 19
+                "line": 8
             }, 
-            "name": "insertCon"
+            "name": "newContact"
         }, 
         {
-            "type": "Integer", 
+            "type": "Map", 
             "modifiers": [], 
             "references": [], 
             "location": {
-                "column": 66, 
-                "line": 19
+                "column": 76, 
+                "line": 8
             }, 
-            "name": "i"
+            "name": "oldContactMap"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 10
+            }, 
+            "name": "contactsWithtrackHistoryValue"
+        }, 
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 11, 
+                "line": 12
+            }, 
+            "name": "contactWithChangedNameorEmail"
         }, 
         {
             "type": "Contact", 
             "modifiers": [], 
             "references": [], 
             "location": {
-                "column": 11, 
-                "line": 21
+                "column": 15, 
+                "line": 13
             }, 
-            "name": "con"
+            "name": "c"
+        }, 
+        {
+            "type": "Contact", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 15, 
+                "line": 23
+            }, 
+            "name": "c"
         }
     ], 
-    "id": "01p90000006Ct2oAAC", 
+    "id": "01p90000006Cu39AAC", 
     "methods": [
         {
             "modifiers": [
                 "static", 
                 "public"
             ], 
-            "name": "createCandidates", 
+            "name": "trackFieldsOnUpdate", 
             "parameters": [
                 {
-                    "type": "Boolean", 
-                    "name": "insertCan"
+                    "type": "LIST", 
+                    "name": "newContact"
                 }, 
                 {
-                    "type": "Integer", 
-                    "name": "i"
+                    "type": "Map", 
+                    "name": "oldContactMap"
                 }
             ], 
             "visibility": "PUBLIC", 
             "references": [], 
             "location": {
-                "column": 29, 
+                "column": 21, 
                 "line": 3
             }, 
-            "returnType": "Candidate__c", 
+            "returnType": "void", 
             "type": null
         }, 
         {
@@ -114,24 +134,24 @@
                 "static", 
                 "public"
             ], 
-            "name": "createContacts", 
+            "name": "trackFields", 
             "parameters": [
                 {
-                    "type": "Boolean", 
-                    "name": "insertCon"
+                    "type": "LIST", 
+                    "name": "newContact"
                 }, 
                 {
-                    "type": "Integer", 
-                    "name": "i"
+                    "type": "Map", 
+                    "name": "oldContactMap"
                 }
             ], 
             "visibility": "PUBLIC", 
             "references": [], 
             "location": {
-                "column": 24, 
-                "line": 19
+                "column": 21, 
+                "line": 8
             }, 
-            "returnType": "Contact", 
+            "returnType": "void", 
             "type": null
         }
     ]

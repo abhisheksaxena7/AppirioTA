@@ -7,7 +7,9 @@
 		<members>RandomContactFactory</members>
 		<members>StringArrayTest</members>
 		<members>TestRestrictContactByName</members>
+		<members>TestTrackHistory</members>
 		<members>TestVerifyDate</members>
+		<members>TrackHistoryHandler</members>
 		<members>VerifyDate</members>
 		<name>ApexClass</name>
 	</types>

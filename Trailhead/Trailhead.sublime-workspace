@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"f",
+				"FirstName"
+			],
+			[
+				"con",
+				"contactsWithtrackHistoryValue"
+			],
+			[
+				"trac",
+				"trackHistoryValue"
+			],
+			[
+				"tr",
+				"trackHistoryValue"
+			],
+			[
+				"get",
+				"PUBLIC get(ANY key) 	String"
+			],
+			[
+				"tra",
+				"trackFieldsOnUpdate"
+			],
+			[
+				"ol",
+				"oldMap"
+			],
+			[
+				"isU",
+				"isUpdate"
+			],
+			[
+				"l",
+				"LastName"
+			],
+			[
+				"Las",
+				"LastName"
+			],
+			[
+				"ass",
+				"assertEquals()"
+			],
+			[
+				"Ver",
+				"VerifyDate	[Custom Apex Class]"
+			],
+			[
 				"acc",
 				"accountName"
 			],
@@ -62,10 +110,6 @@
 			[
 				"id",
 				"Id"
-			],
-			[
-				"con",
-				"Contact"
 			],
 			[
 				"map",
@@ -142,20 +186,40 @@
 			[
 				"Can",
 				"Candidate__c"
-			],
-			[
-				"f",
-				"First_Name__c"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "src/triggers/ClosedOpportunityTrigger.trigger",
+			"file": "src/classes/RandomContactFactory.cls",
 			"settings":
 			{
-				"buffer_size": 280,
+				"buffer_size": 319,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/triggers/TrackHistory.trigger",
+			"settings":
+			{
+				"buffer_size": 163,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/classes/TrackHistoryHandler.cls",
+			"settings":
+			{
+				"buffer_size": 1786,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/classes/TestTrackHistory.cls",
+			"settings":
+			{
+				"buffer_size": 81,
 				"line_ending": "Windows"
 			}
 		}
@@ -204,6 +268,11 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/classes/TestRestrictContactByName.cls",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/triggers/RestrictContactByName.trigger",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/classes/TestVerifyDate.cls",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/classes/VerifyDate.cls",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/triggers/ClosedOpportunityTrigger.trigger",
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/triggers/AccountAddressTrigger.trigger",
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/classes/ContactAndLeadSearch.cls",
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/classes/ContactSearch.cls",
@@ -250,24 +319,52 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/triggers/ClosedOpportunityTrigger.trigger",
+					"file": "src/classes/RandomContactFactory.cls",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 280,
+						"buffer_size": 319,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								247,
-								247
+								227,
+								227
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/triggers/TrackHistory.trigger",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 163,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94,
+								94
 							]
 						],
 						"settings":
@@ -279,6 +376,63 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/classes/TrackHistoryHandler.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1314,
+								1314
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/classes/TestTrackHistory.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 81,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -365,7 +519,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 245.0,
+	"side_bar_width": 277.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
