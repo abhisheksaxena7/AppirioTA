@@ -1,0 +1,12 @@
+<apex:page standardController="Account" extensions="AccountOwnerExtension">
+<apex:form >
+   <apex:pageblock >
+      <apex:pageMessages id="showmsg"></apex:pageMessages>
+         <apex:panelGrid columns="2">
+           User Name : <apex:outputField value="{!u.name}"/>
+           Phone : <apex:outputField value="{!u.phone}"/>
+           Email : <apex:outputField value="{!u.email}"/>
+         </apex:panelGrid>
+    </apex:pageblock>
+ </apex:form>
+</apex:page>
