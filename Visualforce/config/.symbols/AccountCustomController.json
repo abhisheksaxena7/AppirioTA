@@ -1,0 +1,55 @@
+{
+    "properties": [
+        {
+            "modifiers": [
+                "public"
+            ], 
+            "name": "acc", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 23, 
+                "line": 3
+            }, 
+            "type": "LIST"
+        }
+    ], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [
+        {
+            "modifiers": [
+                "public"
+            ], 
+            "name": "AccountCustomController", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 12, 
+                "line": 5
+            }, 
+            "type": null
+        }
+    ], 
+    "namespace": null, 
+    "name": "AccountCustomController", 
+    "tableDeclaration": {
+        "type": "AccountCustomController", 
+        "modifiers": [
+            "public", 
+            "with sharing"
+        ], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 1
+        }, 
+        "name": "AccountCustomController"
+    }, 
+    "key": "01p90000006CukEAAS", 
+    "variables": [], 
+    "id": "01p90000006CukEAAS", 
+    "methods": []
+}

@@ -1,0 +1,18 @@
+<apex:page controller="AccountCustomController" showHeader="true" sidebar="true">
+
+	<table>
+	<tr>
+		<th>Account Name</th>
+		<th>Account Rating</th>
+		<th>Account Phone</th>
+	</tr>
+	<apex:repeat value="{!acc}" var="a">
+	<tr>
+		<td>{!a.Name}</td>
+		<td>{!a.Phone}</td>
+		<td>{!a.Rating}</td>
+	</tr>
+	</apex:repeat>
+	</table>
+
+</apex:page>
