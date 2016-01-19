@@ -203,7 +203,7 @@
 			"file": "src/triggers/TrackHistory.trigger",
 			"settings":
 			{
-				"buffer_size": 163,
+				"buffer_size": 170,
 				"line_ending": "Windows"
 			}
 		},
@@ -211,15 +211,15 @@
 			"file": "src/classes/TrackHistoryHandler.cls",
 			"settings":
 			{
-				"buffer_size": 1786,
-				"line_ending": "Windows"
+				"buffer_size": 1910,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "src/classes/TestTrackHistory.cls",
 			"settings":
 			{
-				"buffer_size": 81,
+				"buffer_size": 1374,
 				"line_ending": "Windows"
 			}
 		}
@@ -263,8 +263,7 @@
 	[
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead",
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src",
-		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/classes",
-		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/triggers"
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/pages"
 	],
 	"file_history":
 	[
@@ -356,15 +355,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 163,
+						"buffer_size": 170,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								94,
-								94
+								0,
+								0
 							]
 						],
 						"settings":
@@ -384,15 +383,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1786,
+						"buffer_size": 1910,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1314,
-								1314
+								0,
+								0
 							]
 						],
 						"settings":
@@ -413,7 +412,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 81,
+						"buffer_size": 1374,
 						"regions":
 						{
 						},
@@ -426,7 +425,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage"
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
