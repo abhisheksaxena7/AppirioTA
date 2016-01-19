@@ -1,0 +1,13 @@
+<apex:page standardController="Contact" showHeader="true" sidebar="true">
+
+	<apex:pageBlock title="Contact Details">
+		<apex:form>
+			<apex:panelGrid columns="2">
+				First Name : <apex:inputField value="{!Contact.FirstName}" />
+				Last Name : <apex:inputField value="{!Contact.LastName}" />
+				Email : <apex:inputField value="{!Contact.Email}" />
+			</apex:panelGrid>
+			<apex:commandButton value="Save" action="{!Save}" />
+		</apex:form>
+	</apex:pageBlock>
+</apex:page>
