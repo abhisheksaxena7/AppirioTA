@@ -181,19 +181,6 @@
         "mmState": "clean", 
         "type": "ApexPage"
     }, 
-    "DisplayUserInfo.page": {
-        "createdById": "00590000002cPoyAAE", 
-        "createdByName": "Abhishek Saxena", 
-        "createdDate": "2016-01-19 15:25:20", 
-        "fileName": "unpackaged/pages/DisplayUserInfo.page", 
-        "fullName": "DisplayUserInfo", 
-        "id": "06690000005SNPYAA4", 
-        "lastModifiedById": "00590000002cPoyAAE", 
-        "lastModifiedByName": "Abhishek Saxena", 
-        "lastModifiedDate": "2016-01-19 15:27:04", 
-        "mmState": "clean", 
-        "type": "ApexPage"
-    }, 
     "Map.page": {
         "createdById": "00590000002cPoyAAE", 
         "createdByName": "Abhishek Saxena", 
@@ -310,19 +297,6 @@
         "lastModifiedDate": "2016-01-12 14:48:36", 
         "mmState": "clean", 
         "type": "ApexClass"
-    }, 
-    "UserStatus.page": {
-        "createdById": "00590000002cPoyAAE", 
-        "createdByName": "Abhishek Saxena", 
-        "createdDate": "2016-01-19 15:12:57", 
-        "fileName": "unpackaged/pages/UserStatus.page", 
-        "fullName": "UserStatus", 
-        "id": "06690000005SNPTAA4", 
-        "lastModifiedById": "00590000002cPoyAAE", 
-        "lastModifiedByName": "Abhishek Saxena", 
-        "lastModifiedDate": "2016-01-19 15:24:15", 
-        "mmState": "clean", 
-        "type": "ApexPage"
     }, 
     "Util.cls": {
         "createdById": "00590000002cPoyAAE", 
