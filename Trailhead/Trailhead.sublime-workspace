@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"pageB",
+				"apex:pageBlockSection"
+			],
+			[
+				"pa",
+				"apex:pageBlock"
+			],
+			[
+				"de",
+				"apex:detail"
+			],
+			[
+				"c",
+				"columns	(Integer)"
+			],
+			[
 				"f",
 				"FirstName"
 			],
@@ -192,34 +208,18 @@
 	"buffers":
 	[
 		{
-			"file": "src/classes/RandomContactFactory.cls",
+			"file": "src/pages/AccountDetails.page",
 			"settings":
 			{
-				"buffer_size": 319,
+				"buffer_size": 496,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/triggers/TrackHistory.trigger",
+			"file": "src/pages/OppView.page",
 			"settings":
 			{
-				"buffer_size": 170,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/classes/TrackHistoryHandler.cls",
-			"settings":
-			{
-				"buffer_size": 1910,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/classes/TestTrackHistory.cls",
-			"settings":
-			{
-				"buffer_size": 1374,
+				"buffer_size": 526,
 				"line_ending": "Windows"
 			}
 		}
@@ -267,6 +267,11 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/classes/TestTrackHistory.cls",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/classes/TrackHistoryHandler.cls",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/pages/ContactView.page",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/triggers/TrackHistory.trigger",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/classes/RandomContactFactory.cls",
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/classes/TestRestrictContactByName.cls",
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/triggers/RestrictContactByName.trigger",
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/classes/TestVerifyDate.cls",
@@ -323,81 +328,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/classes/RandomContactFactory.cls",
+					"file": "src/pages/AccountDetails.page",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 319,
+						"buffer_size": 496,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								227,
-								227
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/triggers/TrackHistory.trigger",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 170,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
+								496,
 								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/classes/TrackHistoryHandler.cls",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1910,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -407,32 +355,31 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "src/classes/TestTrackHistory.cls",
+					"buffer": 1,
+					"file": "src/pages/OppView.page",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1374,
+						"buffer_size": 526,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								49,
+								49
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
