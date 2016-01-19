@@ -64,6 +64,19 @@
         "mmState": "clean", 
         "type": "ApexClass"
     }, 
+    "ContactView.page": {
+        "createdById": "00590000002cPoyAAE", 
+        "createdByName": "Abhishek Saxena", 
+        "createdDate": "2016-01-19 15:46:04", 
+        "fileName": "unpackaged/pages/ContactView.page", 
+        "fullName": "ContactView", 
+        "id": "06690000005SNPdAAO", 
+        "lastModifiedById": "00590000002cPoyAAE", 
+        "lastModifiedByName": "Abhishek Saxena", 
+        "lastModifiedDate": "2016-01-19 15:50:15", 
+        "mmState": "clean", 
+        "type": "ApexPage"
+    }, 
     "Map.page": {
         "createdById": "00590000002cPoyAAE", 
         "createdByName": "Abhishek Saxena", 
