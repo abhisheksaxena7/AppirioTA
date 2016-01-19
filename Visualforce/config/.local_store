@@ -168,19 +168,6 @@
         "mmState": "clean", 
         "type": "ApexClass"
     }, 
-    "DisplayImage.page": {
-        "createdById": "00590000002cPoyAAE", 
-        "createdByName": "Abhishek Saxena", 
-        "createdDate": "2016-01-19 15:00:27", 
-        "fileName": "unpackaged/pages/DisplayImage.page", 
-        "fullName": "DisplayImage", 
-        "id": "06690000005SNPOAA4", 
-        "lastModifiedById": "00590000002cPoyAAE", 
-        "lastModifiedByName": "Abhishek Saxena", 
-        "lastModifiedDate": "2016-01-19 15:04:00", 
-        "mmState": "clean", 
-        "type": "ApexPage"
-    }, 
     "Map.page": {
         "createdById": "00590000002cPoyAAE", 
         "createdByName": "Abhishek Saxena", 
