@@ -12,6 +12,19 @@
         "mmState": "clean", 
         "type": "ApexTrigger"
     }, 
+    "AccountDetails.page": {
+        "createdById": "00590000002cPoyAAE", 
+        "createdByName": "Abhishek Saxena", 
+        "createdDate": "2016-01-19 15:53:37", 
+        "fileName": "unpackaged/pages/AccountDetails.page", 
+        "fullName": "AccountDetails", 
+        "id": "06690000005SNPiAAO", 
+        "lastModifiedById": "00590000002cPoyAAE", 
+        "lastModifiedByName": "Abhishek Saxena", 
+        "lastModifiedDate": "2016-01-19 16:07:08", 
+        "mmState": "clean", 
+        "type": "ApexPage"
+    }, 
     "AccountHandler.cls": {
         "createdById": "00590000002cPoyAAE", 
         "createdByName": "Abhishek Saxena", 
@@ -87,6 +100,19 @@
         "lastModifiedById": "00590000002cPoyAAE", 
         "lastModifiedByName": "Abhishek Saxena", 
         "lastModifiedDate": "2014-07-23 13:43:07", 
+        "mmState": "clean", 
+        "type": "ApexPage"
+    }, 
+    "OppView.page": {
+        "createdById": "00590000002cPoyAAE", 
+        "createdByName": "Abhishek Saxena", 
+        "createdDate": "2016-01-19 16:10:13", 
+        "fileName": "unpackaged/pages/OppView.page", 
+        "fullName": "OppView", 
+        "id": "06690000005SNPnAAO", 
+        "lastModifiedById": "00590000002cPoyAAE", 
+        "lastModifiedByName": "Abhishek Saxena", 
+        "lastModifiedDate": "2016-01-19 16:16:56", 
         "mmState": "clean", 
         "type": "ApexPage"
     }, 
