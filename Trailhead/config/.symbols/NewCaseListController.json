@@ -1,0 +1,71 @@
+{
+    "properties": [
+        {
+            "modifiers": [
+                "private"
+            ], 
+            "name": "newCases", 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 13, 
+                "line": 3
+            }, 
+            "type": "LIST"
+        }
+    ], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [
+        {
+            "modifiers": [
+                "public"
+            ], 
+            "name": "NewCaseListController", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 9, 
+                "line": 4
+            }, 
+            "type": null
+        }
+    ], 
+    "namespace": null, 
+    "name": "NewCaseListController", 
+    "tableDeclaration": {
+        "type": "NewCaseListController", 
+        "modifiers": [
+            "public", 
+            "with sharing"
+        ], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 1
+        }, 
+        "name": "NewCaseListController"
+    }, 
+    "key": "01p90000006CurEAAS", 
+    "variables": [], 
+    "id": "01p90000006CurEAAS", 
+    "methods": [
+        {
+            "modifiers": [
+                "public"
+            ], 
+            "name": "getNewCases", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 8
+            }, 
+            "returnType": "LIST", 
+            "type": null
+        }
+    ]
+}

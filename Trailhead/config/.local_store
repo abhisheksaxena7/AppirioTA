@@ -116,6 +116,32 @@
         "mmState": "clean", 
         "type": "ApexPage"
     }, 
+    "NewCaseList.page": {
+        "createdById": "00590000002cPoyAAE", 
+        "createdByName": "Abhishek Saxena", 
+        "createdDate": "2016-01-20 15:28:50", 
+        "fileName": "unpackaged/pages/NewCaseList.page", 
+        "fullName": "NewCaseList", 
+        "id": "06690000005SNUTAA4", 
+        "lastModifiedById": "00590000002cPoyAAE", 
+        "lastModifiedByName": "Abhishek Saxena", 
+        "lastModifiedDate": "2016-01-20 15:49:22", 
+        "mmState": "clean", 
+        "type": "ApexPage"
+    }, 
+    "NewCaseListController.cls": {
+        "createdById": "00590000002cPoyAAE", 
+        "createdByName": "Abhishek Saxena", 
+        "createdDate": "2016-01-20 15:28:12", 
+        "fileName": "unpackaged/classes/NewCaseListController.cls", 
+        "fullName": "NewCaseListController", 
+        "id": "01p90000006CurEAAS", 
+        "lastModifiedById": "00590000002cPoyAAE", 
+        "lastModifiedByName": "Abhishek Saxena", 
+        "lastModifiedDate": "2016-01-20 16:07:35", 
+        "mmState": "clean", 
+        "type": "ApexClass"
+    }, 
     "OppView.page": {
         "createdById": "00590000002cPoyAAE", 
         "createdByName": "Abhishek Saxena", 
