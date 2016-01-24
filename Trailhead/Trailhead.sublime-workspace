@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"t",
+				"title	(String)"
+			],
+			[
+				"ac",
+				"action	(ApexPages.Action)"
+			],
+			[
+				"inp",
+				"apex:inputField"
+			],
+			[
 				"pageB",
 				"apex:pageBlockSection"
 			],
@@ -80,10 +92,6 @@
 				"calculateGT"
 			],
 			[
-				"ac",
-				"Account"
-			],
-			[
 				"g",
 				"Grand_Total__c"
 			],
@@ -114,10 +122,6 @@
 			[
 				"new",
 				"newContact"
-			],
-			[
-				"t",
-				"Total__c"
 			],
 			[
 				"fr",
@@ -207,22 +211,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/pages/AccountDetails.page",
-			"settings":
-			{
-				"buffer_size": 496,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/pages/OppView.page",
-			"settings":
-			{
-				"buffer_size": 526,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -263,10 +251,29 @@
 	[
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead",
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/classes",
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/pages"
 	],
 	"file_history":
 	[
+		"/C/Users/Abhishek Saxena/AppData/Local/Temp/Temp1_VFSession.zip/DemoVF9Controller.cls",
+		"/C/Users/Abhishek Saxena/AppData/Local/Temp/Temp1_VFSession.zip/DemoVF9.page",
+		"/C/Users/Abhishek Saxena/AppData/Local/Temp/Temp1_VFSession.zip/DemoVF1.page",
+		"/C/Users/Abhishek Saxena/AppData/Local/Temp/Temp1_VFSession.zip/DemoVF8Controller.cls",
+		"/C/Users/Abhishek Saxena/AppData/Local/Temp/Temp1_VFSession.zip/DemoVF8.page",
+		"/C/Users/Abhishek Saxena/AppData/Local/Temp/Temp1_VFSession.zip/DemoVF7Controller.cls",
+		"/C/Users/Abhishek Saxena/AppData/Local/Temp/Temp1_VFSession.zip/DemoVF7.page",
+		"/D/Build ant files/New folder/package.xml",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/classes/NewCaseListController.cls",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/pages/CreateContact.page",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/pages/OppView.page",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/pages/AccountDetails.page",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/pages/NewCaseList.page",
+		"/C/Users/Abhishek Saxena/AppData/Local/Temp/Temp1_VFSession.zip/DemoVF6.page",
+		"/D/Build ant files/New folder/build.properties",
+		"/D/Build ant files/build.properties",
+		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/pages/AccountList.page",
+		"/D/Build ant files/package.xml",
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/classes/TestTrackHistory.cls",
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/classes/TrackHistoryHandler.cls",
 		"/C/Users/Abhishek Saxena/Documents/AppirioTA/Trailhead/src/pages/ContactView.page",
@@ -305,6 +312,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Account",
 			"beforeIn"
 		],
 		"highlight": true,
@@ -323,65 +331,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/pages/AccountDetails.page",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 496,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								496,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/pages/OppView.page",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 526,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								49,
-								49
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
