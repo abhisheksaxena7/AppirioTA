@@ -1,0 +1,43 @@
+<apex:page controller="AjaxDemoController">
+<apex:pageMessages id="err"/>
+<apex:form>
+<apex:actionFunction name="clearData" action="{!clearData}" rerender="detail" status="status"/>
+<br/>
+{!message}
+<br/>
+<table border ="0"><tr>
+<th>Select Account</th>
+<td>	<apex:selectList id="acc" value="{!accountId}" size="1" required="true" onchange="clearData();">
+                 	<apex:selectOptions value="{!accountList}"></apex:selectOptions>
+    	 </apex:selectList>
+</td></tr>
+<tr><td>
+<apex:commandButton value="Submit" action="{!submit}" rerender="err,detail" status="status"/></td>
+<td><apex:commandButton value="Cancel" action="{!cancel}" immediate="true"/></td>
+</tr></table>
+<hr/>
+<apex:actionStatus startText="Loading.............." id="status"/>
+<apex:outputPanel id="detail">
+<apex:outputPanel rendered="{!showDetails}">
+	<br/><br/>
+	{!message}
+	<hr/><br/><br/>
+	<table border="1" width="60%">
+	<tr>
+		<th>Account Name</th>
+		<td>{!obj.Name}</td>
+		<th>Account Number</th>
+		<td>{!obj.AccountNumber}</td>
+	</tr>
+	<tr>
+		<th>Account Phone</th>
+		<td>{!obj.Phone}</td>
+		<th>Account Revenue</th>
+		<td>{!obj.AnnualRevenue}</td>
+	</tr>
+	</table>
+	<hr/>
+</apex:outputPanel>
+</apex:outputPanel>
+</apex:form>
+</apex:page>

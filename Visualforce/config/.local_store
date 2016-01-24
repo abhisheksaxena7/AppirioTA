@@ -90,6 +90,32 @@
         "mmState": "clean", 
         "type": "ApexPage"
     }, 
+    "AjaxDemo.page": {
+        "createdById": "00590000002cPoyAAE", 
+        "createdByName": "Abhishek Saxena", 
+        "createdDate": "2016-01-24 13:03:39", 
+        "fileName": "unpackaged/pages/AjaxDemo.page", 
+        "fullName": "AjaxDemo", 
+        "id": "06690000005SNmIAAW", 
+        "lastModifiedById": "00590000002cPoyAAE", 
+        "lastModifiedByName": "Abhishek Saxena", 
+        "lastModifiedDate": "2016-01-24 13:05:26", 
+        "mmState": "clean", 
+        "type": "ApexPage"
+    }, 
+    "AjaxDemoController.cls": {
+        "createdById": "00590000002cPoyAAE", 
+        "createdByName": "Abhishek Saxena", 
+        "createdDate": "2016-01-24 13:03:18", 
+        "fileName": "unpackaged/classes/AjaxDemoController.cls", 
+        "fullName": "AjaxDemoController", 
+        "id": "01p90000006CvWuAAK", 
+        "lastModifiedById": "00590000002cPoyAAE", 
+        "lastModifiedByName": "Abhishek Saxena", 
+        "lastModifiedDate": "2016-01-24 13:04:53", 
+        "mmState": "clean", 
+        "type": "ApexClass"
+    }, 
     "CandidateTrigger.trigger": {
         "createdById": "00590000002cPoyAAE", 
         "createdByName": "Abhishek Saxena", 
